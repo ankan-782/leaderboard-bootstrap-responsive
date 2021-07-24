@@ -1,0 +1,54 @@
+/* common styles for all section starts*/
+.container-radius {
+    border-radius: 0.5rem;
+}
+.section-title {
+    color: #562EFF;
+}
+/* common styles for all section ends*/
+/* lateset courses card section starts*/
+.card-shadow-radius {
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 1.4rem !important;
+    border: 0 !important;
+}
+.fa-star {
+    font-size: 1.2rem;
+}
+.ratings-point {
+    font-size: 1.2rem;
+}
+.fa-star.filled {
+    color: #FFC014;
+}
+.fa-star.empty {
+    color: #AEAEAE;
+}
+.duration {
+    background-color: #FFE4E8;
+    border-radius: 1.4rem;
+    padding: 0.1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fas.fa-clock{
+    color: #FF4A60;
+    font-size: 1.2rem;
+}
+.duration-time {
+    font-size: 1.2rem;
+    color: #FF4A60;
+    font-weight: 500;
+}
+@media only screen and (max-width: 576px) {
+    .footer-xsm {
+        display: flex;
+        flex-direction: column;
+    }
+    .duration {
+        margin-top: 1rem;
+        background-color: white;
+    }
+}
+/* lateset courses card section ends*/
